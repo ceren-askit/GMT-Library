@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACADEMICIAN</title>
+</head>
+<body>
+
+    Academician Page
+
+    <p>
+
+    {%  for aca in acas %}
+        {{ aca.aca_name }}
+        {{ aca.aca_surname }}
+        {{ aca.aca_email }}
+
+
+    {% endfor %}
+    </p>
+
+</body>
+</html>
